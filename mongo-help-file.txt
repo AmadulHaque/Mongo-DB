@@ -1,0 +1,61 @@
+you are inside bin file open than cmd  access to database 
+you can use "mongo.exe", than show data base "db show",
+
+ mongo cmd
+
+how to view all database {
+ 1/ show dbs
+}
+
+how create a database {
+ 1/# use "db name"
+ 2/# db.students.insert({name:"Karim",city:"Dhaka"})
+}
+
+how to delete database {
+ 1/ use "db name"
+ 2/ db.dropDatabase()
+}
+
+how to create  collection {
+ 1/ use  "db name"
+ 2/ db.createCollection("collection name")
+
+}
+
+how to delete collection {
+ 1/ use "db name"
+ 2/db.collection name.drop()
+}
+
+how to insert data collection {
+ 1/ use "db name"
+ 2/ db."collection name".insertOne({name:"a",age:"b"}
+ 3/ db."collection name".insertMany([{name:"a",age:"b"},{name:"a",age:"b"},{name:"a",age:"b"},{name:"a",age:"b"}])
+}
+
+how to get one data collection {
+ 1/ use "db name"
+ 2/ db."collection name".findOne({name:'a'})
+
+}
+
+how to get All data collection {
+ 1/ use "db name"
+ 2/ db."collection name".find()
+ ##butify
+ 3/ db."collection name".find().pretty()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
